@@ -13,8 +13,8 @@ def load_model(file_path):
         model = joblib.load(file)
     return model
 
-model = load_model("C:/Users/Admin/Desktop/Esade/Prototype/Session 2/assignment1_model3.pkl")
-model_k = load_model("C:/Users/Admin/Desktop/Esade/Prototype/Session 2/full_kmeans_pipeline.pkl")
+model = load_model("https://github.com/data-driven-prototypes-2023/s1_Olaf_Lesniak/blob/218e8da2e87bce2f78d17a59983f5afa2aa24ba9/assignment1_model3.pkl")
+model_k = load_model("https://github.com/data-driven-prototypes-2023/s1_Olaf_Lesniak/blob/218e8da2e87bce2f78d17a59983f5afa2aa24ba9/full_kmeans_pipeline.pkl")
 
 @st.cache_resource
 def load_data():
