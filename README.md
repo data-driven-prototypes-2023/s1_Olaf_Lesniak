@@ -34,7 +34,6 @@ streamlit run s1_Olaf_Lesniak.py
 3. Download the filtered data as a CSV file.
 4. Adjust range sliders to fine-tune the data displayed in the interactive table.
 
-st.markdown("""
 ### Model Selection 🎯
 I selected this dataset as it is very relevant for banks to know their customers better. Using logistic regression for analyzing the classification and applying k-means to analyze other similar customers for further default analysis.
 
