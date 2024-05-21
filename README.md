@@ -25,12 +25,12 @@ streamlit run s1_Olaf_Lesniak.py
 **Credit Worthiness Prediction**
 
 1. Navigate to the "Prediction 🔮" page.
-2. Input customer data manually or upload a CSV file.
-3. View the default probability prediction and the customer’s cluster assignment.
+2. Input customer data manually given the top predictors
+3. View the default probability prediction and the customer’s cluster assignment + probability to default
 **Insights & Analytics**
 
 1. Navigate to the "Table 📊" page.
-2. Filter the customer data based on selected features.
+2. Filter the customer data based on selected features on the side bar.
 3. Download the filtered data as a CSV file.
 4. Adjust range sliders to fine-tune the data displayed in the interactive table.
 
